@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>wangEditor 上传附件 | YoFoon&#39;s前端小站</title>
+    <meta name="description" content="好好学习，努力化蛹成蝶">
+    <link rel="icon" href="/logo.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#3eaf7c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="/icons/logo.png">
+  <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#3eaf7c">
+  <meta name="msapplication-TileImage" content="/icons/logo.png">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="apple-mobile-web-app-status-bar-style">
+    
+    <link rel="preload" href="/assets/css/0.styles.05cc7eb5.css" as="style"><link rel="preload" href="/assets/js/app.1274b19c.js" as="script"><link rel="preload" href="/assets/js/3.e5f6c01d.js" as="script"><link rel="preload" href="/assets/js/22.70d87ff4.js" as="script"><link rel="preload" href="/assets/js/6.da654ace.js" as="script"><link rel="prefetch" href="/assets/js/10.92e21c8d.js"><link rel="prefetch" href="/assets/js/11.cc1411d8.js"><link rel="prefetch" href="/assets/js/12.2d961c16.js"><link rel="prefetch" href="/assets/js/13.205676dc.js"><link rel="prefetch" href="/assets/js/14.b165508a.js"><link rel="prefetch" href="/assets/js/15.486ed8f4.js"><link rel="prefetch" href="/assets/js/16.ac82d50a.js"><link rel="prefetch" href="/assets/js/17.db1abd0b.js"><link rel="prefetch" href="/assets/js/18.bd9497b5.js"><link rel="prefetch" href="/assets/js/19.081301d7.js"><link rel="prefetch" href="/assets/js/20.b8d7b737.js"><link rel="prefetch" href="/assets/js/21.086584d3.js"><link rel="prefetch" href="/assets/js/23.cf08daab.js"><link rel="prefetch" href="/assets/js/24.07387fb5.js"><link rel="prefetch" href="/assets/js/25.4e770138.js"><link rel="prefetch" href="/assets/js/26.4bf8b93c.js"><link rel="prefetch" href="/assets/js/27.38076681.js"><link rel="prefetch" href="/assets/js/28.eddd4fec.js"><link rel="prefetch" href="/assets/js/29.10d1433e.js"><link rel="prefetch" href="/assets/js/30.4a707e0a.js"><link rel="prefetch" href="/assets/js/31.8677c398.js"><link rel="prefetch" href="/assets/js/32.12c7f3b9.js"><link rel="prefetch" href="/assets/js/33.932ee82b.js"><link rel="prefetch" href="/assets/js/34.d4b9aeb4.js"><link rel="prefetch" href="/assets/js/35.acc1896e.js"><link rel="prefetch" href="/assets/js/36.527e7284.js"><link rel="prefetch" href="/assets/js/37.a3f87927.js"><link rel="prefetch" href="/assets/js/38.88ddbf7a.js"><link rel="prefetch" href="/assets/js/39.fd7962a1.js"><link rel="prefetch" href="/assets/js/4.d584cd42.js"><link rel="prefetch" href="/assets/js/40.15dc2bae.js"><link rel="prefetch" href="/assets/js/41.92269fcd.js"><link rel="prefetch" href="/assets/js/42.b6a87d96.js"><link rel="prefetch" href="/assets/js/43.84bcdfb9.js"><link rel="prefetch" href="/assets/js/44.86791ad1.js"><link rel="prefetch" href="/assets/js/45.6a3fb16d.js"><link rel="prefetch" href="/assets/js/46.b5293326.js"><link rel="prefetch" href="/assets/js/47.7d80c117.js"><link rel="prefetch" href="/assets/js/48.5085aee1.js"><link rel="prefetch" href="/assets/js/49.45b201a6.js"><link rel="prefetch" href="/assets/js/5.e3a314f7.js"><link rel="prefetch" href="/assets/js/50.3ea3c47a.js"><link rel="prefetch" href="/assets/js/51.7319689a.js"><link rel="prefetch" href="/assets/js/52.c4d9b204.js"><link rel="prefetch" href="/assets/js/53.3114bf6b.js"><link rel="prefetch" href="/assets/js/54.995bca0e.js"><link rel="prefetch" href="/assets/js/55.e27397eb.js"><link rel="prefetch" href="/assets/js/56.e4513a4e.js"><link rel="prefetch" href="/assets/js/57.1159b507.js"><link rel="prefetch" href="/assets/js/58.7d58a545.js"><link rel="prefetch" href="/assets/js/59.dbd46eb1.js"><link rel="prefetch" href="/assets/js/60.92e88ec9.js"><link rel="prefetch" href="/assets/js/61.8d5cdca3.js"><link rel="prefetch" href="/assets/js/62.9af7431d.js"><link rel="prefetch" href="/assets/js/63.b41e9a05.js"><link rel="prefetch" href="/assets/js/64.4a3c4ea7.js"><link rel="prefetch" href="/assets/js/65.835613ef.js"><link rel="prefetch" href="/assets/js/66.8cd25ac9.js"><link rel="prefetch" href="/assets/js/67.2fdfc8d2.js"><link rel="prefetch" href="/assets/js/68.1a6fa670.js"><link rel="prefetch" href="/assets/js/69.24c523fc.js"><link rel="prefetch" href="/assets/js/7.0f973c56.js"><link rel="prefetch" href="/assets/js/70.afc49943.js"><link rel="prefetch" href="/assets/js/71.425d9845.js"><link rel="prefetch" href="/assets/js/72.df82cb35.js"><link rel="prefetch" href="/assets/js/73.6461ff8b.js"><link rel="prefetch" href="/assets/js/74.42fdc9ca.js"><link rel="prefetch" href="/assets/js/75.6029d9dd.js"><link rel="prefetch" href="/assets/js/76.ac5c877d.js"><link rel="prefetch" href="/assets/js/77.91697145.js"><link rel="prefetch" href="/assets/js/78.3f23eaf7.js"><link rel="prefetch" href="/assets/js/79.3390703e.js"><link rel="prefetch" href="/assets/js/8.cd0d92c8.js"><link rel="prefetch" href="/assets/js/80.14cf59a6.js"><link rel="prefetch" href="/assets/js/81.df106301.js"><link rel="prefetch" href="/assets/js/82.b9c47d41.js"><link rel="prefetch" href="/assets/js/83.7d601b24.js"><link rel="prefetch" href="/assets/js/84.8f06dfd5.js"><link rel="prefetch" href="/assets/js/85.0361ac05.js"><link rel="prefetch" href="/assets/js/86.cfc2ea02.js"><link rel="prefetch" href="/assets/js/87.04b875f6.js"><link rel="prefetch" href="/assets/js/9.cd570fc8.js"><link rel="prefetch" href="/assets/js/vendors~notification.7bcb2342.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.05cc7eb5.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">YoFoon's前端小站</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/knowledge/" class="nav-link">知识</a></div><div class="nav-item"><a href="/blog/" class="nav-link router-link-active">博客</a></div> <a href="https://github.com/YoFoon/FE-FACE" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/knowledge/" class="nav-link">知识</a></div><div class="nav-item"><a href="/blog/" class="nav-link router-link-active">博客</a></div> <a href="https://github.com/YoFoon/FE-FACE" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>博客</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blog/" class="sidebar-link">快速链接链接</a></li><li><a href="/blog/20200414-hide-element.html" class="sidebar-link">点击空白处隐藏弹出元素</a></li><li><a href="/blog/20200414-intersection-observer.html" class="sidebar-link">IntersectionObserver 懒加载</a></li><li><a href="/blog/20200414-shell-push-git.html" class="sidebar-link">shell 推送 git</a></li><li><a href="/blog/20200421-wang-editor-add-upload-file.html" class="active sidebar-link">wangEditor 上传附件</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/20200421-wang-editor-add-upload-file.html#创建-wangeditor" class="sidebar-link">创建 wangEditor</a></li><li class="sidebar-sub-header"><a href="/blog/20200421-wang-editor-add-upload-file.html#添加上传图片" class="sidebar-link">添加上传图片</a></li><li class="sidebar-sub-header"><a href="/blog/20200421-wang-editor-add-upload-file.html#上传附件" class="sidebar-link">上传附件</a></li></ul></li><li><a href="/blog/20200422-ye-mian-zhu-ru-50-wan-ge-li.html" class="sidebar-link">页面注入50万个li怎么做提升性能？</a></li><li><a href="/blog/20200424-qian-duan-gong-cheng-hua.html" class="sidebar-link">前端工程化</a></li><li><a href="/blog/20200430-ArrayBuffer-Blob-File.html" class="sidebar-link">ArrayBuffer,Blob,FileReader 三大对象</a></li><li><a href="/blog/20200914-tong-guo-localStorage-tong-yuan-fa-song-xin-xi.html" class="sidebar-link">通过localStorage同域发送信息</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>大数据处理</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blog/20200428-BitMap.html" class="sidebar-link">BitMap 算法</a></li><li><a href="/blog/20200509-node-big-text.html" class="sidebar-link">NODE 大文件读写</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>react</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="wangeditor-上传附件"><a href="#wangeditor-上传附件" aria-hidden="true" class="header-anchor">#</a> wangEditor 上传附件</h1> <p><img src="https://qnm.hunliji.com/Fr-24uWW8ctVREtvv9Kx_xSSDuAL" alt="img"></p> <h2 id="创建-wangeditor"><a href="#创建-wangeditor" aria-hidden="true" class="header-anchor">#</a> 创建 wangEditor</h2> <p>创建一个<code>index.js</code>文件</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> React<span class="token punctuation">,</span> <span class="token punctuation">{</span> Component <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react'</span>
+<span class="token keyword">import</span> Wangeditor <span class="token keyword">from</span> <span class="token string">'wangeditor'</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">class</span> <span class="token class-name">RcWangEdite</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span> <span class="token punctuation">{</span>
+  <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">super</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>containerRef <span class="token operator">=</span> React<span class="token punctuation">.</span><span class="token function">createRef</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function-variable function">componentDidMount</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> div <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>containerRef<span class="token punctuation">.</span>current<span class="token punctuation">;</span>
+    <span class="token keyword">const</span> editor <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Wangeditor</span><span class="token punctuation">(</span>div<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>editor <span class="token operator">=</span> editor<span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setCustomConfig</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    editor<span class="token punctuation">.</span><span class="token function">create</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+  <span class="token function-variable function">onChange</span> <span class="token operator">=</span> <span class="token parameter">html</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span><span class="token function">onChange</span><span class="token punctuation">(</span>html<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+  <span class="token function-variable function">setCustomConfig</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> <span class="token punctuation">{</span> customConfig <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>editor<span class="token punctuation">.</span>customConfig <span class="token operator">=</span> <span class="token punctuation">{</span>
+      <span class="token comment">// 关闭粘贴内容中的样式</span>
+      pasteFilterStyle<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+      <span class="token comment">// 忽略粘贴内容中的图片</span>
+      pasteIgnoreImg<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+      <span class="token comment">// 使用 base64 保存图片</span>
+      uploadImgShowBase64<span class="token punctuation">:</span> <span class="token boolean">true</span>
+      <span class="token operator">...</span>customConfig<span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token operator">&lt;</span>div  ref<span class="token operator">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>containerRef<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;&gt;</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="添加上传图片"><a href="#添加上传图片" aria-hidden="true" class="header-anchor">#</a> 添加上传图片</h2> <p>修改<code>setCustomConfig</code>这个方法</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token function-variable function">setCustomConfig</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> <span class="token punctuation">{</span> customConfig <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>props
+  <span class="token keyword">this</span><span class="token punctuation">.</span>editor<span class="token punctuation">.</span>customConfig <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 关闭粘贴内容中的样式</span>
+    pasteFilterStyle<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token comment">// 忽略粘贴内容中的图片</span>
+    pasteIgnoreImg<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token comment">// 上传图片到服务器</span>
+    uploadFileName<span class="token punctuation">:</span> <span class="token string">'image'</span><span class="token punctuation">,</span> <span class="token comment">//设置文件上传的参数名称</span>
+    uploadImgServer<span class="token punctuation">:</span> commonApi<span class="token punctuation">.</span>imgUploadApi<span class="token punctuation">,</span> <span class="token comment">//设置上传文件的服务器路径</span>
+    uploadImgMaxSize<span class="token punctuation">:</span> <span class="token number">10</span> <span class="token operator">*</span> <span class="token number">1024</span> <span class="token operator">*</span> <span class="token number">1024</span><span class="token punctuation">,</span> <span class="token comment">// 将图片大小限制为 10M</span>
+    uploadImgHooks<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+      <span class="token function-variable function">before</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">xhr<span class="token punctuation">,</span> editor<span class="token punctuation">,</span> files</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        before <span class="token operator">&amp;&amp;</span> <span class="token function">before</span><span class="token punctuation">(</span>xhr<span class="token punctuation">,</span> editor<span class="token punctuation">,</span> files<span class="token punctuation">)</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token function-variable function">fail</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">xhr<span class="token punctuation">,</span> editor<span class="token punctuation">,</span> result</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        fail <span class="token operator">&amp;&amp;</span> <span class="token function">fail</span><span class="token punctuation">(</span>xhr<span class="token punctuation">,</span> editor<span class="token punctuation">,</span> result<span class="token punctuation">)</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token function-variable function">error</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">xhr<span class="token punctuation">,</span> editor</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        error <span class="token operator">&amp;&amp;</span> <span class="token function">error</span><span class="token punctuation">(</span>xhr<span class="token punctuation">,</span> editor<span class="token punctuation">)</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token function-variable function">timeout</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">xhr<span class="token punctuation">,</span> editor</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        timeout <span class="token operator">&amp;&amp;</span> <span class="token function">timeout</span><span class="token punctuation">(</span>xhr<span class="token punctuation">,</span> editor<span class="token punctuation">)</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token function-variable function">customInsert</span><span class="token punctuation">:</span> <span class="token punctuation">(</span><span class="token parameter">insertImg<span class="token punctuation">,</span> result</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        <span class="token keyword">const</span> <span class="token punctuation">{</span> code<span class="token punctuation">,</span> data<span class="token punctuation">,</span> msg <span class="token punctuation">}</span> <span class="token operator">=</span> result
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>code <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          <span class="token function">insertImg</span><span class="token punctuation">(</span><span class="token string">'/CMMS'</span> <span class="token operator">+</span> data<span class="token punctuation">.</span>image_url<span class="token punctuation">)</span>
+        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+          message<span class="token punctuation">.</span><span class="token function">error</span><span class="token punctuation">(</span>msg<span class="token punctuation">)</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token operator">...</span>customConfig<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="上传附件"><a href="#上传附件" aria-hidden="true" class="header-anchor">#</a> 上传附件</h2> <p>首先我们写一个<code>fileMenu.js</code>的文件</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">/**
+  editor: wangEdit的实例
+  editorSelector: wangEdit挂载点的节点
+  options: 一些配置
+*/</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">(</span><span class="token parameter">editor<span class="token punctuation">,</span> editorSelector<span class="token punctuation">,</span> options</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  editor<span class="token punctuation">.</span>fileMenu <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token function-variable function">init</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">editor<span class="token punctuation">,</span> editorSelector</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">const</span> div <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">'div'</span><span class="token punctuation">)</span>
+      div<span class="token punctuation">.</span>className <span class="token operator">=</span> <span class="token string">'w-e-menu'</span>
+      div<span class="token punctuation">.</span>style<span class="token punctuation">.</span>zIndex <span class="token operator">=</span> <span class="token number">10001</span>
+      <span class="token keyword">const</span> rdn <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getTime</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+      div<span class="token punctuation">.</span><span class="token function-variable function">onclick</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token template-string"><span class="token string">`up-</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>rdn<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">click</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+      <span class="token punctuation">}</span>
+
+      <span class="token keyword">const</span> input <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">'input'</span><span class="token punctuation">)</span>
+      input<span class="token punctuation">.</span>type <span class="token operator">=</span> <span class="token string">'file'</span>
+      input<span class="token punctuation">.</span>name <span class="token operator">=</span> <span class="token string">'file'</span>
+      input<span class="token punctuation">.</span>id <span class="token operator">=</span> <span class="token template-string"><span class="token string">`up-</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>rdn<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">`</span></span>
+      input<span class="token punctuation">.</span>className <span class="token operator">=</span> <span class="token string">'upload-file-input'</span>
+
+      div<span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> <span class="token template-string"><span class="token string">`&lt;span class=&quot;upload-file-span&quot;&gt;上传附件&lt;/span&gt;`</span></span>
+      div<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span>input<span class="token punctuation">)</span>
+      editorSelector<span class="token punctuation">.</span><span class="token function">getElementsByClassName</span><span class="token punctuation">(</span><span class="token string">'w-e-toolbar'</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">append</span><span class="token punctuation">(</span>div<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">// 创建完之后立即实例化</span>
+  editor<span class="token punctuation">.</span>fileMenu<span class="token punctuation">.</span><span class="token function">init</span><span class="token punctuation">(</span>editor<span class="token punctuation">,</span> editorSelector<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>在<code>index.js</code>中引入<code>fileMenu.js</code></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> fileMenu <span class="token keyword">from</span> <span class="token string">'./fileMenu'</span><span class="token punctuation">;</span>
+<span class="token operator">...</span>
+<span class="token operator">...</span>
+<span class="token comment">// 修改componentDidMount</span>
+<span class="token function-variable function">componentDidMount</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> div <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>containerRef<span class="token punctuation">.</span>current<span class="token punctuation">;</span>
+
+    <span class="token keyword">const</span> editor <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Wangeditor</span><span class="token punctuation">(</span>div<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>editor <span class="token operator">=</span> editor<span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setCustomConfig</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    editor<span class="token punctuation">.</span><span class="token function">create</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// 要放在editor实例化之后创建上传菜单</span>
+    <span class="token function">fileMenu</span><span class="token punctuation">(</span>editor<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>containerRef<span class="token punctuation">.</span>current<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div><p>做完这一步之后，wangEditor 富文本的菜单栏上已经有上传附件的按钮，并且点击可以选择文件了</p> <h3 id="对选择的文件进行上传"><a href="#对选择的文件进行上传" aria-hidden="true" class="header-anchor">#</a> 对选择的文件进行上传</h3> <p>写一个上传文件的 js，<code>uploadFile.js</code></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> message <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'antd'</span>
+<span class="token keyword">function</span> <span class="token function">uploadFile</span><span class="token punctuation">(</span><span class="token parameter">files<span class="token punctuation">,</span> options</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>files <span class="token operator">||</span> <span class="token operator">!</span>files<span class="token punctuation">.</span>length<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span>
+  <span class="token punctuation">}</span>
+  <span class="token keyword">let</span> uploadFileServer <span class="token operator">=</span> commonApi<span class="token punctuation">.</span>imgUploadApi <span class="token comment">//上传地址</span>
+  <span class="token keyword">const</span> maxSize <span class="token operator">=</span> <span class="token number">100</span> <span class="token operator">*</span> <span class="token number">1024</span> <span class="token operator">*</span> <span class="token number">1024</span> <span class="token comment">//100M</span>
+  <span class="token keyword">const</span> maxSizeM <span class="token operator">=</span> maxSize <span class="token operator">/</span> <span class="token number">1000</span> <span class="token operator">/</span> <span class="token number">1000</span>
+  <span class="token keyword">const</span> maxLength <span class="token operator">=</span> <span class="token number">1</span>
+  <span class="token keyword">const</span> uploadFileName <span class="token operator">=</span> <span class="token string">'file'</span>
+  <span class="token keyword">const</span> uploadFileParams <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+  <span class="token keyword">const</span> uploadFileParamsWithUrl <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+  <span class="token keyword">const</span> timeout <span class="token operator">=</span> <span class="token number">5</span> <span class="token operator">*</span> <span class="token number">60</span> <span class="token operator">*</span> <span class="token number">1000</span> <span class="token comment">//5 min</span>
+  <span class="token comment">// ------------------------------ 验证文件信息 ------------------------------</span>
+  <span class="token keyword">const</span> resultFiles <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+  <span class="token keyword">const</span> errInfo <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+  <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">let</span> file <span class="token keyword">of</span> files<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> name <span class="token operator">=</span> file<span class="token punctuation">.</span>name
+    <span class="token keyword">const</span> size <span class="token operator">=</span> file<span class="token punctuation">.</span>size
+    <span class="token comment">// chrome 低版本 name === undefined</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>name <span class="token operator">||</span> <span class="token operator">!</span>size<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>maxSize <span class="token operator">&lt;</span> size<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// 上传附件过大</span>
+      errInfo<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token string">'\u3010'</span> <span class="token operator">+</span> name <span class="token operator">+</span> <span class="token string">'\u3011\u5927\u4E8E '</span> <span class="token operator">+</span> maxSizeM <span class="token operator">+</span> <span class="token string">'M'</span><span class="token punctuation">)</span>
+      <span class="token keyword">return</span>
+    <span class="token punctuation">}</span>
+    <span class="token comment">// 验证通过的加入结果列表</span>
+    resultFiles<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>file<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+  <span class="token comment">// 抛出验证信息</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>errInfo<span class="token punctuation">.</span>length<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">_alert</span><span class="token punctuation">(</span><span class="token string">'附件验证未通过: \n'</span> <span class="token operator">+</span> errInfo<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">'\n'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token keyword">return</span>
+  <span class="token punctuation">}</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>resultFiles<span class="token punctuation">.</span>length <span class="token operator">&gt;</span> maxLength<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">_alert</span><span class="token punctuation">(</span><span class="token string">'一次最多上传'</span> <span class="token operator">+</span> maxLength <span class="token operator">+</span> <span class="token string">'个文件'</span><span class="token punctuation">)</span>
+    <span class="token keyword">return</span>
+  <span class="token punctuation">}</span>
+  <span class="token comment">// ------------------------------ 自定义上传 ------------------------------</span>
+  <span class="token comment">// 添加附件数据</span>
+  <span class="token keyword">const</span> formdata <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">FormData</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">let</span> file <span class="token keyword">of</span> resultFiles<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> name <span class="token operator">=</span> uploadFileName <span class="token operator">||</span> file<span class="token punctuation">.</span>name
+    formdata<span class="token punctuation">.</span><span class="token function">append</span><span class="token punctuation">(</span>name<span class="token punctuation">,</span> file<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+  <span class="token comment">// ------------------------------ 上传附件 ------------------------------</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>uploadFileServer <span class="token operator">&amp;&amp;</span> <span class="token keyword">typeof</span> uploadFileServer <span class="token operator">===</span> <span class="token string">'string'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span>key <span class="token keyword">in</span> uploadFileParams<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      val <span class="token operator">=</span> <span class="token function">encodeURIComponent</span><span class="token punctuation">(</span>uploadFileParams<span class="token punctuation">[</span>val<span class="token punctuation">]</span><span class="token punctuation">)</span>
+      formdata<span class="token punctuation">.</span><span class="token function">append</span><span class="token punctuation">(</span>key<span class="token punctuation">,</span> val<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+    <span class="token comment">// 定义 xhr</span>
+    <span class="token keyword">const</span> xhr <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">XMLHttpRequest</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    xhr<span class="token punctuation">.</span><span class="token function">open</span><span class="token punctuation">(</span><span class="token string">'POST'</span><span class="token punctuation">,</span> uploadFileServer<span class="token punctuation">)</span>
+    <span class="token comment">// 设置超时</span>
+    xhr<span class="token punctuation">.</span>timeout <span class="token operator">=</span> timeout
+    xhr<span class="token punctuation">.</span><span class="token function-variable function">ontimeout</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>options<span class="token punctuation">.</span>timeout <span class="token operator">&amp;&amp;</span> <span class="token keyword">typeof</span> options<span class="token punctuation">.</span>timeout <span class="token operator">===</span> <span class="token string">'function'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        options<span class="token punctuation">.</span><span class="token function">timeout</span><span class="token punctuation">(</span>xhr<span class="token punctuation">,</span> editor<span class="token punctuation">)</span>
+      <span class="token punctuation">}</span>
+      message<span class="token punctuation">.</span><span class="token function">error</span><span class="token punctuation">(</span><span class="token string">'上传附件超时'</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+    <span class="token comment">// 监控 progress</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>xhr<span class="token punctuation">.</span>upload<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      xhr<span class="token punctuation">.</span>upload<span class="token punctuation">.</span><span class="token function-variable function">onprogress</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">let</span> percent <span class="token operator">=</span> <span class="token keyword">void</span> <span class="token number">0</span>
+        <span class="token comment">// 进度条</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>e<span class="token punctuation">.</span>lengthComputable<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          percent <span class="token operator">=</span> e<span class="token punctuation">.</span>loaded <span class="token operator">/</span> e<span class="token punctuation">.</span>total
+          <span class="token keyword">if</span> <span class="token punctuation">(</span>options<span class="token punctuation">.</span>onProgress <span class="token operator">&amp;&amp;</span> <span class="token keyword">typeof</span> options<span class="token punctuation">.</span>onProgress <span class="token operator">===</span> <span class="token string">'function'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            options<span class="token punctuation">.</span><span class="token function">onProgress</span><span class="token punctuation">(</span>percent<span class="token punctuation">)</span>
+          <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token comment">// 返回数据</span>
+    xhr<span class="token punctuation">.</span><span class="token function-variable function">onreadystatechange</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">let</span> result <span class="token operator">=</span> <span class="token keyword">void</span> <span class="token number">0</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>xhr<span class="token punctuation">.</span>readyState <span class="token operator">===</span> <span class="token number">4</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>xhr<span class="token punctuation">.</span>status <span class="token operator">&lt;</span> <span class="token number">200</span> <span class="token operator">||</span> xhr<span class="token punctuation">.</span>status <span class="token operator">&gt;=</span> <span class="token number">300</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          <span class="token comment">// hook - error</span>
+          <span class="token keyword">if</span> <span class="token punctuation">(</span>options<span class="token punctuation">.</span>onFail <span class="token operator">&amp;&amp;</span> <span class="token keyword">typeof</span> options<span class="token punctuation">.</span>onFail <span class="token operator">===</span> <span class="token string">'function'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            options<span class="token punctuation">.</span><span class="token function">onFail</span><span class="token punctuation">(</span>xhr<span class="token punctuation">,</span> editor<span class="token punctuation">)</span>
+          <span class="token punctuation">}</span>
+          <span class="token keyword">return</span>
+        <span class="token punctuation">}</span>
+        result <span class="token operator">=</span> xhr<span class="token punctuation">.</span>responseText
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token keyword">typeof</span> result <span class="token operator">===</span> <span class="token string">'undefined'</span> <span class="token operator">?</span> <span class="token string">'undefined'</span> <span class="token punctuation">:</span> <span class="token keyword">typeof</span> result<span class="token punctuation">)</span> <span class="token operator">!==</span> <span class="token string">'object'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          <span class="token keyword">try</span> <span class="token punctuation">{</span>
+            result <span class="token operator">=</span> <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span>
+          <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span>ex<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token comment">// hook - fail</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>options<span class="token punctuation">.</span>onFail <span class="token operator">&amp;&amp;</span> <span class="token keyword">typeof</span> options<span class="token punctuation">.</span>onFail <span class="token operator">===</span> <span class="token string">'function'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+              options<span class="token punctuation">.</span><span class="token function">onFail</span><span class="token punctuation">(</span>xhr<span class="token punctuation">,</span> editor<span class="token punctuation">,</span> result<span class="token punctuation">)</span>
+            <span class="token punctuation">}</span>
+            <span class="token keyword">return</span>
+          <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">const</span> data <span class="token operator">=</span> result <span class="token operator">||</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>data<span class="token punctuation">.</span>code <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          options<span class="token punctuation">.</span>onOk <span class="token operator">&amp;&amp;</span> options<span class="token punctuation">.</span><span class="token function">onOk</span><span class="token punctuation">(</span>data<span class="token punctuation">.</span>data<span class="token punctuation">)</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token comment">// 自定义 headers</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">let</span> key <span class="token keyword">in</span> uploadFileHeaders<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      xhr<span class="token punctuation">.</span><span class="token function">setRequestHeader</span><span class="token punctuation">(</span>key<span class="token punctuation">,</span> uploadFileHeaders<span class="token punctuation">[</span>key<span class="token punctuation">]</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+    <span class="token comment">// 跨域传 cookie</span>
+    xhr<span class="token punctuation">.</span>withCredentials <span class="token operator">=</span> <span class="token boolean">false</span>
+    <span class="token comment">// 发送请求</span>
+    xhr<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span>formdata<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> uploadFile
+</code></pre></div><p>粗略的封装了一个上传文件的方法，options 主要暴露有以下几个 api</p> <table><thead><tr><th>name</th> <th>des</th></tr></thead> <tbody><tr><td>timeout</td> <td>超时的回调</td></tr> <tr><td>onProgress</td> <td>上传进度的回调</td></tr> <tr><td>onFail</td> <td>上传失败的回调</td></tr> <tr><td>onOk</td> <td>上传成功的回调</td></tr></tbody></table> <p>其他的需要扩展的，可以自行添加</p> <p>在<code>fileMenu.js</code>中引入<code>uploadFile.js</code></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> uploadFile <span class="token keyword">from</span> <span class="token string">'./uploadFile'</span><span class="token punctuation">;</span>
+<span class="token operator">...</span>
+<span class="token operator">...</span>
+<span class="token comment">// 修改`init`方法， 给`input`加上`onChange`事件</span>
+editor<span class="token punctuation">.</span>fileMenu <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token function-variable function">init</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">editor<span class="token punctuation">,</span> editorSelector</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+    <span class="token operator">...</span>
+    input<span class="token punctuation">.</span><span class="token function-variable function">onchange</span> <span class="token operator">=</span> <span class="token parameter">e</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+      <span class="token comment">// 使用uploadFile上传文件</span>
+      <span class="token function">uploadFile</span><span class="token punctuation">(</span>e<span class="token punctuation">.</span>target<span class="token punctuation">.</span>files<span class="token punctuation">,</span> <span class="token punctuation">{</span>
+        <span class="token function-variable function">onOk</span><span class="token punctuation">:</span> <span class="token parameter">data</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+          console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span>
+          <span class="token comment">// 可以使用editor.txt.html(data)进行更新</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token function-variable function">onFail</span><span class="token punctuation">:</span> <span class="token parameter">err</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+          console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token function-variable function">onProgress</span><span class="token punctuation">:</span> <span class="token parameter">percent</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+          console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>percent<span class="token punctuation">)</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token operator">...</span>
+  <span class="token operator">...</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div><p>就这样子，wangEditor 实现了上传富文本的功能，wangEditor 也封装好了</p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/YoFoon/FE-FACE/edit/master/blog/20200421-wang-editor-add-upload-file.md" target="_blank" rel="noopener noreferrer">在 GitHub 上编辑此页</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/blog/20200414-shell-push-git.html" class="prev">
+          shell 推送 git
+        </a></span> <span class="next"><a href="/blog/20200422-ye-mian-zhu-ru-50-wan-ge-li.html">
+          页面注入50万个li怎么做提升性能？
+        </a>
+        →
+      </span></p></div> </main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/assets/js/app.1274b19c.js" defer></script><script src="/assets/js/3.e5f6c01d.js" defer></script><script src="/assets/js/22.70d87ff4.js" defer></script><script src="/assets/js/6.da654ace.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>常见请求头和响应头 | YoFoon&#39;s前端小站</title>
+    <meta name="description" content="好好学习，努力化蛹成蝶">
+    <link rel="icon" href="/logo.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#3eaf7c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="/icons/logo.png">
+  <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#3eaf7c">
+  <meta name="msapplication-TileImage" content="/icons/logo.png">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="apple-mobile-web-app-status-bar-style">
+    
+    <link rel="preload" href="/assets/css/0.styles.05cc7eb5.css" as="style"><link rel="preload" href="/assets/js/app.1274b19c.js" as="script"><link rel="preload" href="/assets/js/3.e5f6c01d.js" as="script"><link rel="preload" href="/assets/js/72.df82cb35.js" as="script"><link rel="preload" href="/assets/js/6.da654ace.js" as="script"><link rel="prefetch" href="/assets/js/10.92e21c8d.js"><link rel="prefetch" href="/assets/js/11.cc1411d8.js"><link rel="prefetch" href="/assets/js/12.2d961c16.js"><link rel="prefetch" href="/assets/js/13.205676dc.js"><link rel="prefetch" href="/assets/js/14.b165508a.js"><link rel="prefetch" href="/assets/js/15.486ed8f4.js"><link rel="prefetch" href="/assets/js/16.ac82d50a.js"><link rel="prefetch" href="/assets/js/17.db1abd0b.js"><link rel="prefetch" href="/assets/js/18.bd9497b5.js"><link rel="prefetch" href="/assets/js/19.081301d7.js"><link rel="prefetch" href="/assets/js/20.b8d7b737.js"><link rel="prefetch" href="/assets/js/21.086584d3.js"><link rel="prefetch" href="/assets/js/22.70d87ff4.js"><link rel="prefetch" href="/assets/js/23.cf08daab.js"><link rel="prefetch" href="/assets/js/24.07387fb5.js"><link rel="prefetch" href="/assets/js/25.4e770138.js"><link rel="prefetch" href="/assets/js/26.4bf8b93c.js"><link rel="prefetch" href="/assets/js/27.38076681.js"><link rel="prefetch" href="/assets/js/28.eddd4fec.js"><link rel="prefetch" href="/assets/js/29.10d1433e.js"><link rel="prefetch" href="/assets/js/30.4a707e0a.js"><link rel="prefetch" href="/assets/js/31.8677c398.js"><link rel="prefetch" href="/assets/js/32.12c7f3b9.js"><link rel="prefetch" href="/assets/js/33.932ee82b.js"><link rel="prefetch" href="/assets/js/34.d4b9aeb4.js"><link rel="prefetch" href="/assets/js/35.acc1896e.js"><link rel="prefetch" href="/assets/js/36.527e7284.js"><link rel="prefetch" href="/assets/js/37.a3f87927.js"><link rel="prefetch" href="/assets/js/38.88ddbf7a.js"><link rel="prefetch" href="/assets/js/39.fd7962a1.js"><link rel="prefetch" href="/assets/js/4.d584cd42.js"><link rel="prefetch" href="/assets/js/40.15dc2bae.js"><link rel="prefetch" href="/assets/js/41.92269fcd.js"><link rel="prefetch" href="/assets/js/42.b6a87d96.js"><link rel="prefetch" href="/assets/js/43.84bcdfb9.js"><link rel="prefetch" href="/assets/js/44.86791ad1.js"><link rel="prefetch" href="/assets/js/45.6a3fb16d.js"><link rel="prefetch" href="/assets/js/46.b5293326.js"><link rel="prefetch" href="/assets/js/47.7d80c117.js"><link rel="prefetch" href="/assets/js/48.5085aee1.js"><link rel="prefetch" href="/assets/js/49.45b201a6.js"><link rel="prefetch" href="/assets/js/5.e3a314f7.js"><link rel="prefetch" href="/assets/js/50.3ea3c47a.js"><link rel="prefetch" href="/assets/js/51.7319689a.js"><link rel="prefetch" href="/assets/js/52.c4d9b204.js"><link rel="prefetch" href="/assets/js/53.3114bf6b.js"><link rel="prefetch" href="/assets/js/54.995bca0e.js"><link rel="prefetch" href="/assets/js/55.e27397eb.js"><link rel="prefetch" href="/assets/js/56.e4513a4e.js"><link rel="prefetch" href="/assets/js/57.1159b507.js"><link rel="prefetch" href="/assets/js/58.7d58a545.js"><link rel="prefetch" href="/assets/js/59.dbd46eb1.js"><link rel="prefetch" href="/assets/js/60.92e88ec9.js"><link rel="prefetch" href="/assets/js/61.8d5cdca3.js"><link rel="prefetch" href="/assets/js/62.9af7431d.js"><link rel="prefetch" href="/assets/js/63.b41e9a05.js"><link rel="prefetch" href="/assets/js/64.4a3c4ea7.js"><link rel="prefetch" href="/assets/js/65.835613ef.js"><link rel="prefetch" href="/assets/js/66.8cd25ac9.js"><link rel="prefetch" href="/assets/js/67.2fdfc8d2.js"><link rel="prefetch" href="/assets/js/68.1a6fa670.js"><link rel="prefetch" href="/assets/js/69.24c523fc.js"><link rel="prefetch" href="/assets/js/7.0f973c56.js"><link rel="prefetch" href="/assets/js/70.afc49943.js"><link rel="prefetch" href="/assets/js/71.425d9845.js"><link rel="prefetch" href="/assets/js/73.6461ff8b.js"><link rel="prefetch" href="/assets/js/74.42fdc9ca.js"><link rel="prefetch" href="/assets/js/75.6029d9dd.js"><link rel="prefetch" href="/assets/js/76.ac5c877d.js"><link rel="prefetch" href="/assets/js/77.91697145.js"><link rel="prefetch" href="/assets/js/78.3f23eaf7.js"><link rel="prefetch" href="/assets/js/79.3390703e.js"><link rel="prefetch" href="/assets/js/8.cd0d92c8.js"><link rel="prefetch" href="/assets/js/80.14cf59a6.js"><link rel="prefetch" href="/assets/js/81.df106301.js"><link rel="prefetch" href="/assets/js/82.b9c47d41.js"><link rel="prefetch" href="/assets/js/83.7d601b24.js"><link rel="prefetch" href="/assets/js/84.8f06dfd5.js"><link rel="prefetch" href="/assets/js/85.0361ac05.js"><link rel="prefetch" href="/assets/js/86.cfc2ea02.js"><link rel="prefetch" href="/assets/js/87.04b875f6.js"><link rel="prefetch" href="/assets/js/9.cd570fc8.js"><link rel="prefetch" href="/assets/js/vendors~notification.7bcb2342.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.05cc7eb5.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">YoFoon's前端小站</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/knowledge/" class="nav-link router-link-active">知识</a></div><div class="nav-item"><a href="/blog/" class="nav-link">博客</a></div> <a href="https://github.com/YoFoon/FE-FACE" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/knowledge/" class="nav-link router-link-active">知识</a></div><div class="nav-item"><a href="/blog/" class="nav-link">博客</a></div> <a href="https://github.com/YoFoon/FE-FACE" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>前言</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/knowledge/" class="sidebar-link">知识点</a></li><li><a href="/knowledge/book.html" class="sidebar-link">书籍/课程推荐</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>前端基础</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/knowledge/html.html" class="sidebar-link">HTML 基础</a></li><li><a href="/knowledge/css.html" class="sidebar-link">CSS 基础</a></li><li><a href="/knowledge/jsBasic.html" class="sidebar-link">JavaScript 基础</a></li><li><a href="/knowledge/browser.html" class="sidebar-link">浏览器基础</a></li><li><a href="/knowledge/jsonp.html" class="sidebar-link">前端跨域</a></li><li><a href="/knowledge/jsWritten.html" class="sidebar-link">JS 手写源码</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>前端深入</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/knowledge/hoisting.html" class="sidebar-link">JavaScript 的『预解释』与『变量提升』</a></li><li><a href="/knowledge/eventLoop.html" class="sidebar-link">Event Loop 详解</a></li><li><a href="/knowledge/immutable.html" class="sidebar-link">实现不可变数据</a></li><li><a href="/knowledge/memory.html" class="sidebar-link">JavaScript 内存管理</a></li><li><a href="/knowledge/deepclone.html" class="sidebar-link">实现深克隆</a></li><li><a href="/knowledge/event.html" class="sidebar-link">如何实现一个 Event</a></li><li><a href="/knowledge/mechanism.html" class="sidebar-link">JavaScript 的运行机制</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>浏览器</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/knowledge/dom.html" class="sidebar-link">DOM</a></li><li><a href="/knowledge/domRender.html" class="sidebar-link">浏览器渲染原理</a></li><li><a href="/knowledge/cache.html" class="sidebar-link">浏览器的缓存机制</a></li><li><a href="/knowledge/url.html" class="sidebar-link">输入 URL 到页面渲染的整个流程</a></li><li><a href="/knowledge/requestHeader.html" class="active sidebar-link">常见请求头和响应头</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/knowledge/requestHeader.html#请求头" class="sidebar-link">请求头</a></li><li class="sidebar-sub-header"><a href="/knowledge/requestHeader.html#响应头" class="sidebar-link">响应头</a></li><li class="sidebar-sub-header"><a href="/knowledge/requestHeader.html#http-协议定义了几个可以用来控制浏览器缓存关键字，它们是：" class="sidebar-link">HTTP 协议定义了几个可以用来控制浏览器缓存关键字，它们是：</a></li><li class="sidebar-sub-header"><a href="/knowledge/requestHeader.html#浏览器缓存行为还有用户的行为有关" class="sidebar-link">浏览器缓存行为还有用户的行为有关</a></li></ul></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>网络</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/knowledge/http.html" class="sidebar-link">HTTP 协议</a></li><li><a href="/knowledge/tcp.html" class="sidebar-link">TCP 面试题</a></li><li><a href="/knowledge/cdn.html" class="sidebar-link">CDN 原理简析</a></li><li><a href="/knowledge/https.html" class="sidebar-link">HTTPS</a></li><li><a href="/knowledge/http2.html" class="sidebar-link">HTTP2</a></li><li><a href="/knowledge/httpWritten.html" class="sidebar-link">HTTP 笔试部分</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>常用算法</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/knowledge/algorithm.html" class="sidebar-link">算法面试题</a></li><li><a href="/knowledge/string.html" class="sidebar-link">字符串类面试题</a></li><li><a href="/knowledge/tree.html" class="sidebar-link">二叉树</a></li><li><a href="/knowledge/chain.html" class="sidebar-link">链表</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>前端框架</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/knowledge/react.html" class="sidebar-link">React 面试题</a></li><li><a href="/knowledge/virtualDom.html" class="sidebar-link">虚拟 DOM 原理</a></li><li><a href="/knowledge/devsProxy.html" class="sidebar-link">Proxy 比 defineproperty 优劣对比?</a></li><li><a href="/knowledge/setState.html" class="sidebar-link">setState 到底是异步的还是同步的?</a></li><li><a href="/knowledge/router.html" class="sidebar-link">前端路由的实现</a></li><li><a href="/knowledge/reactError.html" class="sidebar-link">React 错误捕获</a></li><li><a href="/knowledge/fiber.html" class="sidebar-link">React Fiber 架构解析</a></li><li><a href="/knowledge/abstract.html" class="sidebar-link">React 组件复用指南</a></li><li><a href="/knowledge/reactHook.html" class="sidebar-link">React-hooks 抽象组件</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>性能</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/knowledge/load.html" class="sidebar-link">前端性能优化</a></li><li><a href="/knowledge/execute.html" class="sidebar-link">前端性能优化-执行篇</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>工程化</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/knowledge/webpack.html" class="sidebar-link">webpack 面试题</a></li><li><a href="/knowledge/engineering.html" class="sidebar-link">前端工程化</a></li><li><a href="/knowledge/ast.html" class="sidebar-link">如何写一个 babel</a></li><li><a href="/knowledge/WebpackHMR.html" class="sidebar-link">Webpack HMR 原理解析</a></li><li><a href="/knowledge/webpackPlugin.html" class="sidebar-link">webpack 插件编写</a></li><li><a href="/knowledge/webpackPluginDesign.html" class="sidebar-link">webpack 插件化设计</a></li><li><a href="/knowledge/webpackMoudle.html" class="sidebar-link">Webpack 模块机制</a></li><li><a href="/knowledge/webpackLoader.html" class="sidebar-link">webpack loader 实现</a></li><li><a href="/knowledge/babelPlugin.html" class="sidebar-link">如何开发 Babel 插件</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>安全</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/knowledge/security.html" class="sidebar-link">前端安全</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="常见请求头和响应头"><a href="#常见请求头和响应头" aria-hidden="true" class="header-anchor">#</a> 常见请求头和响应头</h1> <h2 id="请求头"><a href="#请求头" aria-hidden="true" class="header-anchor">#</a> 请求头</h2> <div class="language-js extra-class"><pre class="language-js"><code>Accept<span class="token punctuation">:</span> text<span class="token operator">/</span>html<span class="token punctuation">,</span>image<span class="token comment">/*
+浏览器可以接收的类型
+Accept-Charset: ISO-8859-1
+浏览器可以接收的编码类型
+Accept-Encoding: gzip,compress
+浏览器可以接收压缩编码类型
+Accept-Language: en-us,zh-cn
+浏览器可以接收的语言和国家类型
+Host: www.lks.cn:80
+浏览器请求的主机和端口
+Referer: http://www.lks.cn/index.html
+请求来自于哪个页面
+User-Agent: Mozilla/4.0 compatible; MSIE 5.5; Windows NT 5.0
+浏览器相关信息
+If-Modified-Since: Tue, 11 Jul 2000 18:23:51 GMT
+某个页面缓存时间
+Cookie：
+浏览器暂存服务器发送的信息
+Connection: close1.0/Keep-Alive1.1
+HTTP请求的版本的特点
+Date: Tue, 11 Jul 2000 18:23:51GMT
+请求网站的时间
+Allow:GET
+请求的方法 GET 常见的还有POST
+Keep-Alive：5
+连接的时间；5
+Connection：keep-alive
+是否是长连接
+Cache-Control：max-age=300
+缓存的最长时间 300
+</span></code></pre></div><h2 id="响应头"><a href="#响应头" aria-hidden="true" class="header-anchor">#</a> 响应头</h2> <div class="language-js extra-class"><pre class="language-js"><code>Location<span class="token punctuation">:</span> http<span class="token punctuation">:</span><span class="token operator">/</span><span class="token operator">/</span>www<span class="token punctuation">.</span>lks<span class="token punctuation">.</span>cn<span class="token operator">/</span>index<span class="token punctuation">.</span>html
+控制浏览器显示哪个页面
+Server<span class="token punctuation">:</span>apache nginx
+服务器的类型
+Content<span class="token operator">-</span>Encoding<span class="token punctuation">:</span> gzip
+服务器发送的压缩编码方式
+Content<span class="token operator">-</span>Length<span class="token punctuation">:</span> <span class="token number">80</span>
+服务器发送显示的字节码长度
+Content<span class="token operator">-</span>Language<span class="token punctuation">:</span> zh<span class="token operator">-</span>cn
+服务器发送内容的语言和国家名
+Content<span class="token operator">-</span>Type<span class="token punctuation">:</span> image<span class="token operator">/</span>jpeg<span class="token punctuation">;</span> charset<span class="token operator">=</span><span class="token constant">UTF</span><span class="token operator">-</span><span class="token number">8</span>
+服务器发送内容的类型和编码类型
+Last<span class="token operator">-</span>Modified<span class="token punctuation">:</span> Tue<span class="token punctuation">,</span> <span class="token number">11</span> Jul <span class="token number">2000</span> <span class="token number">18</span><span class="token punctuation">:</span><span class="token number">23</span><span class="token punctuation">:</span><span class="token number">51</span>GMT
+服务器最后一次修改的时间
+Refresh<span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">;</span>url<span class="token operator">=</span>http<span class="token punctuation">:</span><span class="token operator">/</span><span class="token operator">/</span>www<span class="token punctuation">.</span>lks<span class="token punctuation">.</span>cn
+控制浏览器<span class="token number">1</span>秒钟后转发<span class="token constant">URL</span>所指向的页面
+Content<span class="token operator">-</span>Disposition<span class="token punctuation">:</span> attachment<span class="token punctuation">;</span> filename<span class="token operator">=</span>lks<span class="token punctuation">.</span>jpg
+服务器控制浏览器发下载方式打开文件
+Transfer<span class="token operator">-</span>Encoding<span class="token punctuation">:</span> chunked
+服务器分块传递数据到客户端
+Set<span class="token operator">-</span>Cookie<span class="token punctuation">:</span><span class="token constant">SS</span><span class="token operator">=</span><span class="token constant">Q0</span><span class="token operator">=</span><span class="token number">5</span>Lb_nQ<span class="token punctuation">;</span> path<span class="token operator">=</span><span class="token operator">/</span>search
+服务器发送Cookie相关的信息
+Expires<span class="token punctuation">:</span> <span class="token operator">-</span><span class="token number">1</span>
+资源的过期时间，提供给浏览器缓存数据<span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">1</span>永远过期
+Cache<span class="token operator">-</span>Control<span class="token punctuation">:</span> no<span class="token operator">-</span>cache
+告诉浏览器，一定要回服务器校验，不管有没有缓存数据。
+Pragma<span class="token punctuation">:</span> no<span class="token operator">-</span>cache
+服务器控制浏览器不要缓存网页
+Connection<span class="token punctuation">:</span> close<span class="token operator">/</span>Keep<span class="token operator">-</span>AliveHTTP
+请求的版本的特点
+Date<span class="token punctuation">:</span> Tue<span class="token punctuation">,</span> <span class="token number">11</span> Jul <span class="token number">2000</span> <span class="token number">18</span><span class="token punctuation">:</span><span class="token number">23</span><span class="token punctuation">:</span><span class="token number">51</span> <span class="token constant">GMT</span>
+响应网站的时间
+ETag：“ihfdgkdgnp98hdfg”
+<span class="token function">资源实体的标识</span><span class="token punctuation">(</span>唯一标识，类似md5值，文件有修改md5就不一样<span class="token punctuation">)</span>
+</code></pre></div><h2 id="http-协议定义了几个可以用来控制浏览器缓存关键字，它们是："><a href="#http-协议定义了几个可以用来控制浏览器缓存关键字，它们是：" aria-hidden="true" class="header-anchor">#</a> HTTP 协议定义了几个可以用来控制浏览器缓存关键字，它们是：</h2> <p>Expires,
+Pragma: no-cache,
+Cache-Control ,
+Last-Modified ,
+ETag。</p> <div class="language-swift extra-class"><pre class="language-swift"><code><span class="token number">1</span><span class="token punctuation">.</span> <span class="token builtin">Expires</span><span class="token punctuation">:</span><span class="token operator">+</span>过期时间
+<span class="token builtin">Expires是Web</span>服务器响应消息头字段，
+在响应http请求时告诉浏览器在过期时间前浏览器可以直接从浏览器缓存取数据，而无需再次请求。
+不过<span class="token builtin">Expires</span> 是<span class="token constant">HTTP</span> <span class="token number">1.0</span>的东西，现在默认浏览器均默认使用<span class="token constant">HTTP</span> <span class="token number">1.1</span>，所以它的作用基本忽略。
+
+<span class="token builtin">Expires</span> 的一个缺点就是，返回的到期时间是服务器端的时间，
+这样存在一个问题，如果客户端的时间与服务器的时间相差很大（比如时钟不同步，或者跨时区），
+那么误差就很大，所以在<span class="token constant">HTTP</span> <span class="token number">1.1</span>版开始，被<span class="token builtin">Cache</span><span class="token operator">-</span><span class="token builtin">Control</span><span class="token punctuation">:</span> <span class="token builtin">max</span><span class="token operator">-</span>age<span class="token operator">=</span>秒替代。
+
+过期时间必须是<span class="token constant">HTTP</span>格式的日期时间，其他的都会被解析成当前时间“之前”，缓存会马上过期，
+<span class="token constant">HTTP</span>的日期时间必须是格林威治时间（<span class="token constant">GMT</span>），而不是本地时间。举例：
+<span class="token builtin">Expires</span><span class="token punctuation">:</span> <span class="token builtin">Fri</span><span class="token punctuation">,</span> <span class="token number">30</span> <span class="token builtin">Oct</span> <span class="token number">2009</span> <span class="token number">14</span><span class="token punctuation">:</span><span class="token number">19</span><span class="token punctuation">:</span><span class="token number">41</span>
+
+
+<span class="token number">2</span><span class="token punctuation">.</span> <span class="token builtin">Pragma</span><span class="token punctuation">:</span> no<span class="token operator">-</span>cache
+为了兼容<span class="token builtin">HTTP1</span><span class="token punctuation">.</span><span class="token number">0</span>，可以使用<span class="token builtin">Pragma</span><span class="token punctuation">:</span> no<span class="token operator">-</span>cache头来告诉浏览器不要缓存内容<span class="token punctuation">.</span>
+许多人相信设置一个 <span class="token builtin">Pragma</span><span class="token punctuation">:</span> no<span class="token operator">-</span>cache <span class="token constant">HTTP</span> 协议可以控制缓存是否开启。
+
+这其实不是完全正确的。<span class="token constant">HTTP</span> 协议的详细说明中并没有设置任何有关<span class="token builtin">Pragma</span>的条例，
+相反，<span class="token builtin">Pragma</span>请求十分有争议。虽然一部分缓存会受到此参数的影响，但大多数一点作用也没有，
+请使用header头协议代替它！（作用有争议，最好不用）
+
+
+<span class="token number">3</span><span class="token punctuation">.</span> <span class="token builtin">Cache</span><span class="token operator">-</span>control<span class="token punctuation">:</span>
+<span class="token builtin">Cache</span><span class="token operator">-</span>control直译成中文就是缓存控制，它的作用就是缓存控制，这个http头的值有几种。
+
+<span class="token number">1</span><span class="token punctuation">)</span> <span class="token builtin">max</span><span class="token operator">-</span>age<span class="token operator">=</span><span class="token punctuation">[</span>秒<span class="token punctuation">]</span> — 执行缓存被认为是最新的最长时间。
+类似于过期时间，这个参数是基于请求时间的相对时间间隔，而不是绝对过期时间，
+<span class="token punctuation">[</span>秒<span class="token punctuation">]</span>是一个数字，单位是秒：从请求时间开始到过期时间之间的秒数。
+
+<span class="token number">2</span><span class="token punctuation">)</span> s<span class="token operator">-</span>maxage<span class="token operator">=</span><span class="token punctuation">[</span>秒<span class="token punctuation">]</span> — 类似于<span class="token builtin">max</span><span class="token operator">-</span>age属性，除了他应用于共享（如：代理服务器）缓存
+
+<span class="token number">3</span><span class="token punctuation">)</span> <span class="token keyword">public</span> — 标记认证内容也可以被缓存，一般来说： 经过<span class="token constant">HTTP</span>认证才能访问的内容，输出是自动不可以缓存的；
+
+<span class="token number">4</span><span class="token punctuation">)</span> no<span class="token operator">-</span>cache — 强制每次请求直接发送给源服务器，而不经过本地缓存版本的校验。这对于需要确认认证应用很有用（可以和<span class="token keyword">public</span>结合使用），或者严格要求使用最新数据的应用（不惜牺牲使用缓存的所有好处）。
+指示请求或响应消息不能缓存，该选项并不是说可以设置”不缓存“，容易望文生义<span class="token operator">~</span>
+
+<span class="token number">5</span><span class="token punctuation">)</span> no<span class="token operator">-</span>store — 强制缓存在任何情况下都不要保留任何副本
+
+<span class="token number">6</span><span class="token punctuation">)</span> must<span class="token operator">-</span>revalidate — 告诉缓存必须遵循所有你给予副本的新鲜度的，<span class="token constant">HTTP</span>允许缓存在某些特定情况下返回过期数据，指定了这个属性，你高速缓存，你希望严格的遵循你的规则。
+
+<span class="token number">7</span><span class="token punctuation">)</span> proxy<span class="token operator">-</span>revalidate — 和 must<span class="token operator">-</span>revalidate类似，除了他只对缓存代理服务器起作用
+举例<span class="token punctuation">:</span><span class="token builtin">Cache</span><span class="token operator">-</span><span class="token builtin">Control</span><span class="token punctuation">:</span> <span class="token builtin">max</span><span class="token operator">-</span>age<span class="token operator">=</span><span class="token number">3600</span><span class="token punctuation">,</span> must<span class="token operator">-</span>revalidate
+
+
+<span class="token number">4</span><span class="token punctuation">.</span> <span class="token builtin">Last</span><span class="token operator">-</span><span class="token builtin">Modified</span><span class="token operator">/</span><span class="token builtin">If</span><span class="token operator">-</span><span class="token builtin">Modified</span><span class="token operator">-</span><span class="token builtin">Since</span>：
+
+<span class="token builtin">Last</span><span class="token operator">-</span><span class="token builtin">Modified</span><span class="token operator">/</span><span class="token builtin">If</span><span class="token operator">-</span><span class="token builtin">Modified</span><span class="token operator">-</span><span class="token builtin">Since要配合Cache</span><span class="token operator">-</span><span class="token builtin">Control</span>使用。
+<span class="token builtin">Last</span><span class="token operator">-</span><span class="token builtin">Modified</span>：标示这个响应资源的最后修改时间。
+web服务器在响应请求时，告诉浏览器资源的最后修改时间。
+
+<span class="token builtin">If</span><span class="token operator">-</span><span class="token builtin">Modified</span><span class="token operator">-</span><span class="token builtin">Since：当资源过期时（使用Cache</span><span class="token operator">-</span><span class="token builtin">Control标识的max</span><span class="token operator">-</span>age），
+发现资源具有<span class="token builtin">Last</span><span class="token operator">-</span><span class="token builtin">Modified</span>声明，
+则再次向web服务器请求时带上头 <span class="token builtin">If</span><span class="token operator">-</span><span class="token builtin">Modified</span><span class="token operator">-</span><span class="token builtin">Since</span>，表示请求时间。
+web服务器收到请求后发现有头<span class="token builtin">If</span><span class="token operator">-</span><span class="token builtin">Modified</span><span class="token operator">-</span><span class="token builtin">Since</span> 则与被请求资源的最后修改时间进行比对。
+若最后修改时间较新，说明资源又被改动过，则响应整片资源内容（写在响应消息包体内），<span class="token constant">HTTP</span> <span class="token number">200</span>；
+
+若最后修改时间一致，说明资源无新修改，则响应<span class="token constant">HTTP</span> <span class="token number">304</span> <span class="token punctuation">(</span>无需包体，节省浏览<span class="token punctuation">)</span>，
+告知浏览器继续使用所保存的cache。
+
+
+<span class="token number">5</span><span class="token punctuation">.</span> <span class="token builtin">Etag</span><span class="token operator">/</span><span class="token builtin">If</span><span class="token operator">-</span><span class="token builtin">None</span><span class="token operator">-</span><span class="token builtin">Match</span>：
+<span class="token builtin">Etag</span><span class="token operator">/</span><span class="token builtin">If</span><span class="token operator">-</span><span class="token builtin">None</span><span class="token operator">-</span><span class="token builtin">Match也要配合Cache</span><span class="token operator">-</span><span class="token builtin">Control</span>使用。
+<span class="token builtin">Etag：web</span>服务器响应请求时，告诉浏览器当前资源在服务器的唯一标识（生成规则由服务器决定）。
+<span class="token builtin">Apache中，ETag的值，默认是对文件的索引节（INode</span>），
+大小（<span class="token builtin">Size）和最后修改时间（MTime）进行Hash</span>后得到的。
+
+<span class="token builtin">If</span><span class="token operator">-</span><span class="token builtin">None</span><span class="token operator">-</span><span class="token builtin">Match：当资源过期时（使用Cache</span><span class="token operator">-</span><span class="token builtin">Control标识的max</span><span class="token operator">-</span>age），发现资源具有<span class="token builtin">Etage</span>声明，
+则再次向web服务器请求时带上头<span class="token builtin">If</span><span class="token operator">-</span><span class="token builtin">None</span><span class="token operator">-</span><span class="token builtin">Match</span> （<span class="token builtin">Etag</span>的值）。
+web服务器收到请求后发现有头<span class="token builtin">If</span><span class="token operator">-</span><span class="token builtin">None</span><span class="token operator">-</span><span class="token builtin">Match</span> 则与被请求资源的相应校验串进行比对，
+决定返回<span class="token number">200</span>或<span class="token number">304</span>。
+</code></pre></div><p>Etag 与 Last-Modified 区别：</p> <div class="language-undefined extra-class"><pre class="language-text"><code>1. Last-Modified标注的最后修改只能精确到秒级，
+如果某些文件在1秒钟以内，被修改多次的话，它将不能准确标注文件的修改时间
+如果某些文件会被定期生成，当有时内容并没有任何变化，但Last-Modified却改变了，导致文件没法使用缓存
+有可能存在服务器没有准确获取文件修改时间，或者与代理服务器时间不一致等情形
+
+2. Etag是服务器自动生成或者由开发者生成的对应资源在服务器端的唯一标识符，能够更加准确的控制缓存。
+Last-Modified与ETag一起使用时，服务器会优先验证ETag。
+</code></pre></div><p>浏览器刷新：</p> <div class="language-undefined extra-class"><pre class="language-text"><code>url地址栏里敲击enter：
+只有少数的请求会发送出去，而且几乎没有图片的请求，
+这是因为请求时会先检查本地是不是缓存了请求的图片，
+如果有缓存而且没有过期（过期可以通过该图片请求的header查看），他就不会发出这个图片request。
+
+F5：把所有请求都发给了，服务器判断还没有过期，就直接返回304not modified
+
+ctrl+F5：所有的请求都是重新发送，重新从server读取内容，一点cache都没有读为了防止在server的cache里读取，
+在ctrl+f5刷新时，request的header里还加了特殊字段，
+会加pragma：no-cache   cache control：no-cache。
+这两个就是告诉服务器到浏览器中间的所有节点，
+没有cache，看到这个中间节点也不查自己的cache，保证请求都是从server获得的。
+</code></pre></div><h2 id="浏览器缓存行为还有用户的行为有关"><a href="#浏览器缓存行为还有用户的行为有关" aria-hidden="true" class="header-anchor">#</a> 浏览器缓存行为还有用户的行为有关</h2> <p><img src="https://qnm.hunliji.com/FsiagGHD-euHfjkjX0tIUJeL2eLX" alt="img"></p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/YoFoon/FE-FACE/edit/master/knowledge/requestHeader.md" target="_blank" rel="noopener noreferrer">在 GitHub 上编辑此页</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/knowledge/url.html" class="prev">
+          输入 URL 到页面渲染的整个流程
+        </a></span> <span class="next"><a href="/knowledge/http.html">
+          HTTP 协议
+        </a>
+        →
+      </span></p></div> </main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/assets/js/app.1274b19c.js" defer></script><script src="/assets/js/3.e5f6c01d.js" defer></script><script src="/assets/js/72.df82cb35.js" defer></script><script src="/assets/js/6.da654ace.js" defer></script>
+  </body>
+</html>
